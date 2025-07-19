@@ -17,14 +17,14 @@ The goal of this assignment is to build a functional and responsive stock market
 
   
   ## Folder Structure
-  stock-dashboard/
+  stock-dashboard
 ├── app.py
-├── templates/
+├── templates
 │ └── index.html
-├── static/
+├── static
 │ ├── style.css
 │ └── script.js
-├── data/
+├── data
 │ ├── ADANIPORTS.csv
 │ ├── TATAMOTORS.csv
 │ └── BAJAJFINSV.csv
