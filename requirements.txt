@@ -1,1 +1,9 @@
-Flask
+Project Explanation Note (200–300 words)
+
+The goal of this project was to create a simple, functional stock market dashboard that allows users to visually explore historical stock data for Indian companies. My thought process was to make the app lightweight, easy to run locally, and completely based on CSV files to avoid external API dependencies. This would ensure fast performance and offline readiness, ideal for learning and demonstration purposes.
+I began by collecting sample NSE-format CSV files for companies like ADANIPORTS, TATAMOTORS, and BAJAJFINSV. The backend was built using Flask, chosen for its simplicity and flexibility. It reads the CSV files dynamically from a data directory and exposes a route to serve price and date data in JSON format.
+For the frontend, I used HTML, CSS, and JavaScript, with Chart.js to visualize time-series stock prices. The left panel shows a scrollable list of company names, and upon selecting any of them, the corresponding line chart and 52-week high/low are displayed. The logic is simple and extendable — more companies can be added by just placing new CSVs in the folder.
+One challenge I faced was handling directory paths in Flask when the templates and static folders weren’t in the default location. I also encountered small issues with formatting and missing data rows in CSVs, which I handled using basic validations.
+Overall, this project sharpened my understanding of full-stack development and gave me hands-on experience with data visualization, Flask routing, and CSV data parsing. It was a valuable exercise in building a real-world fintech dashboard from scratch.
+
+I hope you like it! Thanks.
