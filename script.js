@@ -1,3 +1,5 @@
+// JavaScript to fetch stock data from backend and render charts.
+// Dynamically updates chart and 52-week stats when a company is selected.
 
 let chart;
 
