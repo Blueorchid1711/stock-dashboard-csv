@@ -1,6 +1,11 @@
 # stock-dashboard-csv
+
 This is a simple yet functional stock market dashboard built using **HTML, CSS, JavaScript (Chart.js)** on the frontend and **Flask (Python)** on the backend. It reads historical stock data from local **CSV files** and dynamically displays price charts and key stats like 52-week high/low.
 
+
+## Problem Statement
+
+The goal of this assignment is to build a functional and responsive stock market dashboard using real or mock stock data. The application should display a list of companies and allow users to view historical stock price charts dynamically. It should support basic backend functionality, data handling, and visualization using a clean frontend interface. The project aims to assess backend/frontend integration, data-driven decision-making, and financial awareness. Bonus features like 52-week high/low and deployment are encouraged to enhance usability and presentation.
 
 
 ## Features
