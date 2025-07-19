@@ -1,3 +1,5 @@
+# Flask backend to serve stock data and render the main dashboard page.
+# Reads CSV files and exposes them via API for frontend consumption.
 
 from flask import Flask, render_template, jsonify
 import csv
